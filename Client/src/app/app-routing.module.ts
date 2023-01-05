@@ -9,7 +9,7 @@ const routes: Routes = [
   {
     path: 'products',
     component: ProductsComponent,
-    canActivate: [OktaAuthGuard],
+    // canActivate: [OktaAuthGuard],
   },
   { path: 'callback', component: OktaCallbackComponent },
 ];
